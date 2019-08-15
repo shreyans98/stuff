@@ -1,0 +1,76 @@
+IMPS
+  
+  1.Successful Transaction
+    
+REQUEST
+
+import requests
+url = ''
+payload = {
+           'beneficiar_name': 'Ashish T',
+           'beneficiary_account_number': '1008012513',
+           'beneficiary_ifsc_code': 'ICIC1008567',
+           'beneficiary_amount': '1',
+           'beneficiary_mobile': '8796565201'
+          }
+
+files = {}
+headers = {
+   'apikey': 'API_KEY'
+}
+
+response = requests.request('POST', url, headers = headers, data = payload, files = files, allow_redirects = false, timeout = undefined)
+print(response.text)
+
+
+
+RESPONSE
+200-OK
+{
+  "message": "Transaction Successful",
+  "government_commission": 0,
+  "other_commision": 0,
+  "requestNo": "IMPSI447I166366158967IU",
+  "sent_amount": 1,
+  "status": "success"
+}
+
+
+2. Insuuficient Balance in your account
+
+REQUEST
+
+import requests
+url = ''
+payload = {
+           'beneficiar_name': 'Ashish T',
+           'beneficiary_account_number': '1008012513',
+           'beneficiary_ifsc_code': 'ICIC1008567',
+           'beneficiary_amount': '1',
+           'beneficiary_mobile': '8796565201'
+          }
+
+files = {}
+headers = {
+   'apikey': 'API_KEY'
+}
+
+response = requests.request('POST', url, headers = headers, data = payload, files = files, allow_redirects = false, timeout = undefined)
+print(response.text)
+
+
+
+RESPONSE
+400- Bad Request
+
+{
+"message": "Sorry! The money you are trying to send is more than the sum of your balance amount and the charges that we deduct per transaction. Please add more balance and try again. Thanks!",
+"status": "failed"
+}
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+1
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_virtual_address": "xyz@upi"},
+     {"beneficiary_amount": "1"},
+     ]}
+
+
+2
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_virtual_address": "xyz@upi"},
+     {"beneficiary_amount": "1"},
+     {"customer_name": "ABC"},
+     {"customer_virtual_address": "abc@upi"},
+     {"customer_account_number": "1587965423"},
+     {"customer_ifsc_code": "SBI5897658"}
+     ]}
+
+
+4
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"},
+     {"beneficiary_virtual_address": "xyz@upi"}
+     ]}
+
+5
+{"payload": [
+     {"customer_name": "ABC"},
+     {"customer_virtual_address": "abc@upi"},
+     {"customer_account_number": "1587965423"},
+     {"customer_ifsc_code": "SBI5897658"},
+     {"amount" : "1"}
+     ]}
+
+6
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_virtual_address": "xyz@upi"},
+     {"amount": "1"},
+     ]}
+
+7
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_virtual_address": "xyz@upi"},
+     {"beneficiary_amount": "1"},
+     {"customer_name": "ABC"},
+     {"customer_virtual_address": "abc@upi"}
+     ]}
+     200
+
+8
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_virtual_address": "xyz@upi"},
+     {"beneficiary_amount": "1"},
+     ]}
+     200

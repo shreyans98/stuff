@@ -1,0 +1,59 @@
+UPI
+
+   1. Successful Transaction
+
+REQUEST
+
+import requests
+url = ''
+payload = {
+           'beneficiary_virtual_address': 'ashishsamrat12@oksbi',
+           'beneficiary_name': 'Ashish T',
+           'beneficiary_amount': '1'
+          }
+
+headers = {
+   'apikey': 'API_KEY'
+}
+response = requests.request('POST', url, headers=headers, data=payload, allow_redirects=False, timeout=undefined)
+print(response.text)
+
+
+RESPONSE
+200-OK
+{
+ "message": "Transaction Successful",
+ "other_commission": 0,
+ "order_id": "UPI24456794323457IU",
+ "sent_amount": 1,
+ "status": "success"
+}
+
+
+
+2. Insufficient Balance in the account
+
+REQUEST
+
+import requests
+url = ''
+payload = {
+           'beneficiary_virtual_address': 'ashishsamrat12@oksbi',
+           'beneficiary_name': 'Ashish T',
+           'beneficiary_amount': '1'
+          }
+
+headers = {
+   'apikey': 'API_KEY'
+}
+response = requests.request('POST', url, headers=headers, data=payload, allow_redirects=False, timeout=undefined)
+print(response.text)
+
+
+RESPONSE
+
+400- BAD REQUEST
+{
+ "message": "Sorry! The money you are trying to send plus charges    deducted per transaction has exceeded your account balance. Please add more balance and then try again. Thank you!"
+ "status": "failed"
+}0 

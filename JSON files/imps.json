@@ -1,0 +1,91 @@
+ 
+
+1{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     ]}
+
+2{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     ]}
+
+3{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     ]}
+      200
+
+4{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     ]}
+5{"payload": [
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     {"amount": "1"},
+     ]}
+
+6{"payload": [
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     {"amount": "1"},
+     ]}
+
+7{"payload": [
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     {"amount": "1"},
+     ]}
+      200
+
+8{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     ]}
+     200
+9{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_account_number": "1008565479"},
+     {"beneficiary_ifsc_code": "YES1010789"},
+     {"beneficiary_amount": "1"},
+     {"beneficiary_mobile": "8762516977"}
+     {"customer_name": "ABC"},
+     {"customer_account": "4589763512"},
+     {"customer_ifsc_code": "SBI2569852"},
+     {"customer_mobile": "8796563515"},
+     ]}
+     200
+
+
+
+

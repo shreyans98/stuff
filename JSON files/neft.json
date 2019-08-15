@@ -1,0 +1,28 @@
+1
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"beneficiary_bank": "SBI"},
+     {"IFSC_Code": "SBI489958992212"},
+     {"Account_number": "254814395101"},
+     {"beneficiary_branch_name": "abcd SBI"},
+     {"amount": "1"}
+     ]}
+
+2
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"IFSC_Code": "SBI489958992212"},
+     {"Account_Number": "254814395101"},
+     {"beneficiary_bank": "SBI"},
+     {"amount": "1"}
+     ]}
+
+3
+{"payload": [
+     {"beneficiary_name": "XYZ"},
+     {"IFSC_Code": "SBI489958992212"},
+     {"Account_Number": "254814395101"},
+     {"beneficiary_bank": "SBI"},
+     {"amount": "1"}
+     ]}
+     200

@@ -1,0 +1,65 @@
+AEPS
+
+  1.Successful Transaction
+
+REQUEST
+
+import requests
+url = ''
+payload = {
+          'beneficiary_aadhar_number': '1203456954',
+          'beneficiary_location_code': '0647',
+          'beneficiary_amount': '1'
+          }
+
+headers = {
+   'api_key' = 'API_KEY'
+}
+
+response = requests.request('POST', url, headers=headers, data=payload, allow_redirects=False, timeout=undefined)
+print(response.text)
+
+
+RESPONSE
+200-OK
+{
+ "message": "successful transaction",
+ "government_commission":0,
+ "other_commission":0,
+ "requestNo.": "AEPS15487965315662",
+ "amount": 1
+}
+
+
+
+
+2.Insufficient Balance in the account
+
+
+REQUEST
+
+import requests
+url = ''
+payload = {
+          'beneficiary_aadhar_number': '1203456954',
+          'beneficiary_location_code': '0647',
+          'beneficiary_amount': '1'
+          }
+
+headers = {
+   'api_key' = 'API_KEY'
+}
+
+response = requests.request('POST', url, headers=headers, data=payload, allow_redirects=False, timeout=undefined)
+print(response.text)
+
+
+
+
+RESPONSE
+
+400- BAD REQUEST
+{
+ "message": "Sorry! The money you are trying to send plus charges    deducted per transaction has exceeded your account balance. Please add more balance and then try again. Thank you!"
+ "status": "failed"
+}

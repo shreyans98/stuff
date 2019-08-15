@@ -1,0 +1,53 @@
+1. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+    <beneficiary_amount> 1  </beneficiary_amount>
+   </payload>
+
+2.  <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <customer_name> ABC </customer_name>
+    <customer_upi_id> abc@upi </customer_upi_id>
+    <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+    <customer_account_number> 1225569156325 </customer_account_number>
+   </payload>
+
+4. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+    <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+   </payload>
+
+5. <payload>
+    <customer_name> ABC </customer_name>
+    <customer_upi_id> abc@upi </customer_upi_id>
+    <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+    <customer_account_number> 1225569156325 </customer_account_number>
+    <amount> 1 </amount>
+   </payload>
+
+
+6. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+    <amount> 1 </amount>
+   </payload>
+
+7. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+    <amount> 1 </amount>
+    <customer_name> ABC </customer_name>
+    <customer_upi_id> abc@upi </customer_upi_id>
+   </payload>
+
+8. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_upi_id> xyz@upi </beneficiary_upi_id>
+    <amount> 1 </amount>
+   </payload>

@@ -1,0 +1,50 @@
+1
+{"payload": [
+     {"pin_number": "1234"},
+     {"location_code": "067"},
+     {"aadhar_number": "1234567890"}
+     ]}
+
+2
+{"payload": [
+     {"merchant_aadhar_number": "123456788"},
+     {"merchant_location_code": "098"},
+     {"amount": "1"}
+     ]}
+
+3
+{"payload": [
+     {"customer_aadhar_number": "1234567890"},
+     {"customer_location_code": "067"},
+     {"merchant_aadhar_number": "123456788"},
+     {"merchant_location_code": "098"}
+     ]}
+
+4
+{"payload":[
+      {"customer_aadhar_number": "1234567890"},
+      {"customer_location_code": "067"},
+      {"customer_account_number": "1579654112"},
+      {"customer_ifsc_code": "SBI8796521"},
+      {"amount": "1"}
+      ]}
+
+5
+{"payload":[
+     {"merchant_aadhar_number": "123456788"},
+     {"merchant_location_code": "098"},
+     {"merchant_account_number": "123456788"},
+     {"merchant_ifsc_code": "YES458796"},
+     {"customer_aadhar_number": "1234567890"},
+     
+     {"amount": "1"}
+     ]}
+     200
+
+
+6
+{"payload": [
+     {"merchant_aadhar_number": "123456788"},
+     {"merchant_location_code": "098"}
+     ]}
+     200

@@ -1,0 +1,81 @@
+1.<payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+    <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+
+  </payload>
+
+2. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+    <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+
+   </payload>
+
+3.<payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+    <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+
+  </payload>
+
+
+4. <payload>
+    <beneficiary_name> XYZ </beneficiary_name>
+    <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+    <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+    <beneficiary_amount> 1 </beneficiary_amount>
+    <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+    <customer_name> ABC </customer_name>
+    <customer_account_number> 1225569156325 </customer_account_number>
+    <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+    <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
+5. <payload>
+      <customer_name> ABC </customer_name>
+      <customer_account_number> 1225569156325 </customer_account_number>
+      <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+      <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
+6. <payload>
+      <customer_name> ABC </customer_name>
+      <customer_account_number> 1225569156325 </customer_account_number>
+      <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+      <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
+7. <payload>
+      <customer_name> ABC </customer_name>
+      <customer_account_number> 1225569156325 </customer_account_number>
+      <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+      <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
+8. <payload>
+      <customer_name> ABC </customer_name>
+      <customer_account_number> 1225569156325 </customer_account_number>
+      <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+      <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
+
+9. <payload>
+     <beneficiary_name> XYZ </beneficiary_name>
+     <beneficiary_account_number> 1225569156325 </beneficiary_account_number>
+     <beneficiary_ifsc_code> YES1010789  </beneficiary_ifsc_code>
+     <beneficiary_amount> 1 </beneficiary_amount>
+     <beneficiary_mobile> 8762516977 </beneficiary_mobile>
+     <customer_name> ABC </customer_name>
+     <customer_account_number> 1225569156325 </customer_account_number>
+     <customer_ifsc_code> YES1010789  </customer_ifsc_code>
+     <customer_mobile> 8762516977 </customer_mobile>
+   </payload>
+
